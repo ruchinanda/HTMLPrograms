@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!-- HTML5 DOCTYPE -->
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML5 & CSS3 Revision</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        /* CSS SYNTAX:
+           selector { property : value; } */
+
+        body {
+            font-family: Arial;
+        }
+
+        .highlight {
+            color: blue;
+        }
+
+        #mainTitle {
+            color: green;
+        }
+
+        div {
+            border: 1px solid black;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+    </style>
+
+    <!-- EXTERNAL CSS FILE LINK -->
+    <link rel="stylesheet" href="democss.css">
+  </head>
+
+  <body>
+
+<!-- HEADER -->
+<header>
+    <h1 id="mainTitle">HTML5 & CSS3 Revision </h1>
+    <p class="highlight">This page helps in revising HTML and CSS basics.</p>
+</header>
+
+<!-- NAVIGATION -->
+<nav>
+    <a href="Demo2.html">Home</a> |
+    <a href="#footer1">About</a> |
+    <a href="#">Contact</a>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <div>
+        <h2>Introduction to CSS</h2>
+        <p>
+            CSS stands for <strong>Cascading Style Sheets</strong>.
+            It is used to style HTML elements.
+        </p>
+    </div>
+
+    <!-- INLINE CSS -->
+    <div>
+        <h2>Inline CSS</h2>
+        <p style="color:red;">
+            This paragraph uses inline CSS.
+        </p>
+    </div>
+
+    <!-- INTERNAL CSS -->
+    <div>
+        <h2>Internal CSS</h2>
+        <p class="highlight">
+            This text is styled using internal CSS.
+        </p>
+    </div>
+
+    <!-- EXTERNAL CSS -->
+    <div>
+        <h2>External CSS</h2>
+        <p class="externalStyle">
+            This paragraph uses external CSS.
+        </p>
+    </div>
+
+    <!-- TEXT ELEMENTS -->
+    <section>
+        <h2>Text Elements</h2>
+        <p>This is a paragraph.</p>
+        <blockquote>
+            "Practice makes a person perfect."
+        </blockquote>
+        <mark>Highlighted Text</mark>
+    </section>
+
+    <!-- LISTS -->
+    <section>
+        <h2>Lists</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+        </ul>
+
+        <ol>
+            <li>Design</li>
+            <li>Develop</li>
+            <li>Deploy</li>
+        </ol>
+    </section>
+<a name="footer1"></a>
+    <!-- TABLE -->
+    <section>
+        <h2>Table</h2>
+        <table border="1">
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>80</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- IMAGE -->
+    <section>
+        <h2>Image</h2>
+        <figure>
+            <img src="girl11.png" alt="Sample Image">
+            <figcaption>Sample Image</figcaption>
+        </figure>
+    </section>
+
+    <!-- DETAILS & SUMMARY -->
+    <section>
+        <details>
+            <summary>Click to Read More</summary>
+            <p>This content appears on click.</p>
+        </details>
+    </section>
+
+    <!-- METER -->
+    <section>
+        <label>HTML Learning Progress:</label>
+        <meter value="6" min="0" max="10"></meter>
+    </section>
+
+    <!-- IFRAME -->
+    <section>
+        <h2>IFrame</h2>
+        <iframe src="demo.html" width="300" height="120">           </iframe>
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer>
+    <p>&copy; 2026 </p>
+</footer>
+
+  </body>
+</html>
